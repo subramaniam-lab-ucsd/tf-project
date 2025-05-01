@@ -1,2 +1,4 @@
 # tf-project
-Mali Lab - TF Project
+Transcription Factor Project
+
+Goal: Analyze Perturb-seq dataset from Mali Lab to investigate effects of transcription factor knockouts
