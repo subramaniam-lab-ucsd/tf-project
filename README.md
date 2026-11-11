@@ -1,10 +1,17 @@
 # tf-project
-Transcription Factor Project
+**Transcription Factor Project**
 
-**Goal:** Analyze the KOLF2.1J genome-scale Perturb-seq dataset from the Nourreddine et al. (2024) preprint to investigate the effects of transcription factor knockdowns (TF KDs). Compare to the Replogle et al. (2022) K562 genome-scale Perturb-seq dataset to explore cell-type-specific transcriptional regulatory networks in hiPSCs vs. chronic myeloid leukemia cells.
+**Robin Anwyl, Subramaniam Lab, UC San Diego**
 
-**Guiding Questions:** What do TF KD effects reveal about:
-* the transcriptional regulatory networks of hiPSCs and K562 cells?
-* TF crosstalk and co-regulation?
-* cell lineage?
-* how TFs influence chromatin remodeling?
+Code associated with the MS thesis *Exploring Transcriptional Regulation of Cell State via Transcription Factor Perturb-seq* and the manuscript adapted from this thesis.
+
+**Project Objectives:** 
+*  Reanalyze the Nourreddine et al. (2026) KOLF2.1J Perturb-seq dataset and Replogle et al. (2022) K562 Perturb-seq dataset using a single analytical workflow, focusing on how transcription factor knockdowns (TF KDs) shape cell state
+*  Characterize the downstream effects of TF KDs in two cell lines with differing lineage potential (human induced pluripotent stem cells vs. leukemia cell line)
+*  Explore how TF KDs engage and destabilize lineage specification programs in both TF Perturb-seq datasets
+
+**Project Findings:**
+*  In KOLF2.1J, a set of TF KDs induced a program interpreted as germ-layer lineage priming and pluripotency loss, with a bias towards neuroectodermal cell fate
+*  In K562, potential regulators of the erythroid and myeloid programs were identified
+*  Cross-dataset comparison highlighted context-specific regulators with functions that appeared to depend on cell state
+*  In each dataset, lineage specification programs represented the most coherent biological signal above a subtle, coordinated "generic" program broadly shared by dataset TF KDs
